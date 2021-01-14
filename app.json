@@ -1,0 +1,12 @@
+{
+  "name": "TreintaApp",
+  "displayName": "TreintaApp",
+  "expo": {
+    "name": "TreintaApp",
+    "slug": "TreintaApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
