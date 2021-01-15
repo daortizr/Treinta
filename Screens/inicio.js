@@ -77,12 +77,14 @@ export default class Inicio extends React.Component {
           />
           <View style={{width:'100%', flexDirection:'row', justifyContent:'space-around'}}>
             <Button
+              disabled={!(this.state.email && this.state.password)}
               titleStyle={{ color: '#fdd009' }}
               title="Registrarse"
               type="clear"
               onPress={()=>{this.onClickCrear()}}
             />
             <Button
+              disabled={!(this.state.email && this.state.password)}
               buttonStyle={{backgroundColor:'#fdd009'}}
               titleStyle={{color:'black'}}
               title="Siguiente"
