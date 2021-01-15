@@ -31,7 +31,7 @@ export default class map extends React.Component {
         onDragEnd={(e) => console.log(JSON.stringify(e.nativeEvent.coordinate))}
         title={punto.name}
         description={punto.description}
-      ><Icon name={'location-on'} color={'#fdd009'} size={30} /></Marker>
+      ><Icon name={'location-on'} color={'#fdd009'} size={40} /></Marker>
     )
   }
 

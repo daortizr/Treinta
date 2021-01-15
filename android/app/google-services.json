@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "180474431122",
+    "project_id": "treintaapp-c11fe",
+    "storage_bucket": "treintaapp-c11fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180474431122:android:ec95a05c91f4c9873b084b",
+        "android_client_info": {
+          "package_name": "com.treintaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180474431122-627atmh7a6j9tbadhr9bcrudv4iavrpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.treintaapp",
+            "certificate_hash": "c4ced20a359f36fc155ede2f006770d3bf302221"
+          }
+        },
+        {
+          "client_id": "180474431122-93ov9aqfqvdnnmh9ksckh47l310db8t1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8OVrVdtNoZWpakFNVGKrFKnvXueB-AmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180474431122-93ov9aqfqvdnnmh9ksckh47l310db8t1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
