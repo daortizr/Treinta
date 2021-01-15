@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Modal, FlatList } from 'react-native';
-import { Icon, CheckBox, ListItem, Card } from 'react-native-elements';
+import { Text, View } from 'react-native';
+import { Image, Input, Button} from 'react-native-elements';
 
 export default class Inicio extends React.Component {
   constructor(props) {
@@ -11,10 +11,35 @@ export default class Inicio extends React.Component {
   
   render() {
     return (
-      <View >
-       <Text>
-           Este es el inicio de la app
-       </Text>
+      <View style={{ flex: 1, backgroundColor: '#fdd009', justifyContent:'center', alignItems:'center' }} >
+        <View style={{ width:'30%', height:'50%', backgroundColor: 'white', alignItems:'center', borderRadius:10 }}>
+          <Image
+            resizeMode='contain'
+            source={require('../assets/treinta-logo-yellow-gmail-1.png')}
+            style={{ width: 100, height: 100 }}
+          />
+        <Text style={{fontSize:16}}>Acceder</Text>
+          <Input
+            placeholder='correo'
+            leftIcon={{ name: 'email', color:'#fdd009', size:30 }}
+          />
+          <Input
+            placeholder='password'
+            leftIcon={{ name: 'lock-outline', color:'#fdd009', size:30 }}
+          />
+          <View style={{width:'100%', flexDirection:'row', justifyContent:'space-around'}}>
+            <Button
+            titleStyle={{color:'#fdd009'}}
+              title="Registrarse"
+              type="clear"
+            />
+            <Button
+              buttonStyle={{backgroundColor:'#fdd009'}}
+              titleStyle={{color:'black'}}
+              title="Siguiente"
+            />
+          </View>
+        </View>
       </View>
     );
   }

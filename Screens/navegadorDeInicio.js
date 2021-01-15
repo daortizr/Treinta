@@ -15,7 +15,6 @@ const Tab = createBottomTabNavigator();
 export default function NavegadorDeInicio() {
   return (
     <Tab.Navigator>
-      <Tab.Screen name="home" component={Inicio} options={{ tabBarVisible: true }} />
       <Tab.Screen name="Info" component={Info} options={{ tabBarVisible: true }} />
       <Tab.Screen name="Mapa" component={Mapa} options={{ tabBarVisible: true }} />
     </Tab.Navigator>

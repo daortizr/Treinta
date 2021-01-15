@@ -22,6 +22,7 @@ export default class map extends React.Component {
     let listadoDePuntos = puntos.puntos
     return listadoDePuntos.map(punto =>
       <Marker
+        key={punto.name}
         style={{ backgroundColor: 'transparent' }}
         coordinate={{
           latitude: punto.lat,
@@ -30,7 +31,7 @@ export default class map extends React.Component {
         onDragEnd={(e) => console.log(JSON.stringify(e.nativeEvent.coordinate))}
         title={punto.name}
         description={punto.description}
-      ><Icon name={'shopping-cart'} color={'#32a852'} size={50} /></Marker>
+      ><Icon name={'location-on'} color={'#fdd009'} size={30} /></Marker>
     )
   }
 
